@@ -13,3 +13,6 @@
 - docker run -dp 8080:80 containerType - run container with port mapping (8080 is host port, 80 is container port)
 - docker start containerID - start container
 - docker exec -it containerID bash - run bash in container
+
+
+docker run -v ${pwd}:/home/myuser -e QR_CODE_IMAGE_DIRECTORY="homework" -e QR_CODE_DEFAULT_FILE_NAME="GmailQrCOde.png" -e QR_CODE_DEFAULT_URL="https://www.gmail.com" qrcode
