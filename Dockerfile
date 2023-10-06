@@ -25,3 +25,4 @@ CMD ["main.py"]
 #for windows ( POWERSHELL )
 # docker run -v ${pwd}:/home/myuser qrcode
 # docker run -v ${pwd}:/home/myuser -e QR_CODE_IMAGE_DIRECTORY="TEST" qrcode [name of file.py]
+# docker run -v ${pwd}:/home/myuser -e QR_CODE_IMAGE_DIRECTORY='"homework"' -e QR_CODE_DEFAULT_FILE_NAME="GmailQrCOde.png" -e QR_CODE_DEFAULT_URL="https://www.gmail.com" qrcode hello.py
